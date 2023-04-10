@@ -1,0 +1,1376 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#body-principal{
+    width: 960px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+    background-image: url(./imagenes/fondo-ondulado-oscuro_23-2148397045.jpg);
+    background-color: rgba(0, 0, 0, 0.738);
+    background-blend-mode: soft-light;
+    background-position: center;
+}
+
+#body-inicio{
+    font-family: 'Puritan', sans-serif;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    box-shadow: .5rem .5rem .5rem .5rem #333;
+    min-height: auto;
+}
+
+header{
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.fondo{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.805);
+}
+
+
+video{
+    width: 100%;
+    max-height: 100%;
+}
+
+.absolute{
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-family: 'Rubik Moonrocks', cursive;
+    padding:8px 35px 8px 35px;
+    font-size: 80px;
+    color: #dcdcdc;
+    text-shadow: .10rem .10rem .10rem black;
+}
+
+.eslogan{
+    width: 100%;
+    height: 77%;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: aliceblue;
+    text-shadow: .3rem .3rem .3rem black;
+}
+
+.botones{
+    width: 100%;
+    max-height: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    top: 200px;
+}
+
+a{
+    text-decoration: none;
+    color: #f0e9f0;
+    cursor: pointer;
+}
+
+.botones :hover{
+    background-color: #A9A9A9;
+    padding: 10px 40px 10px 40px;
+    min-height: auto;
+}
+
+.inicio {
+    min-height:auto;
+    border: 8px solid #e6e6fa0d ;
+    border-radius: 20px;
+    font-size: 50px;
+    padding:10px 40px  40px;
+    text-decoration: none;
+    background-color:#e6e6fa43;
+    text-shadow: .3rem .3rem .3rem black;
+}
+
+.contacto{
+    min-height: auto;
+    margin-left: 20px;
+    border: 8px solid #e6e6fa0d  ;
+    border-radius: 20px;
+    font-size: 50px;
+    padding:10px 30px 10px 30px;
+    text-decoration: none;
+    background-color: #e6e6fa43;
+    text-shadow: .3rem .3rem .3rem black;
+}
+
+.pie{
+    width: 95%;
+    max-height: auto;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    color: #A9A9A9;
+    margin-bottom: 20px;
+    text-shadow: .3rem .3rem .3rem black;
+}
+
+
+/*############################################ pagina de inicio ############################################*/ 
+
+
+#multimedia{
+    background-color:  #000000c0;
+}
+
+.especial{
+    background-image: url(./imagenes/intro\ paris.jpg);
+    background-color: rgb(30, 30, 30);
+    background-blend-mode: soft-light;
+    background-position: center;
+}
+
+.bu{
+    position: sticky;
+    top: 0;
+    display: flex;
+    z-index: 1;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    background-color: #333;
+    border-radius: 20px;
+}
+
+
+
+.volver ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    font-family:'Rubik Moonrocks', cursive;
+    font-size: 24px;
+    text-shadow: .1rem .1rem .1rem  black;
+}
+
+.volver ul li{
+    display: inline-block;
+}
+
+.volver ul li a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+}
+
+.volver ul li a:hover{
+    background-color:  #f0e9f0;
+    border: 4px solid rgba(248, 248, 255, 0.255);
+    border-radius: 70px;
+}
+
+.ladyblog{
+    color: #f0e9f0;
+    font-size: 43px;
+    text-shadow: .2rem .2rem .2rem  black;
+    display: inline-block;
+    margin-right: 400px;
+}
+
+.logo{
+    padding: 0;
+    margin-top: 8px;
+    margin-right: 10px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+article{
+    background: #333;
+    background-image: url(imagenes/france\ hd.jpg);
+    background-size: 960px 494px;
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(50px);
+}
+
+h2{
+    color:#f0e9f0;
+    width: 960px;
+    height: 100%;
+    padding-top: 40px;
+    font-size: 55px;
+    text-align: center;
+    text-shadow: .5rem .5rem .5rem  black;
+    font-family:'Rubik Moonrocks', cursive;
+    text-transform: uppercase;
+}
+
+.contenido-h2{
+    color: #e6e6fae6;
+    margin-top: 40px;
+    font-family: 'Prompt', sans-serif;
+    font-size: 25px;
+    padding-top: 30px;
+    padding-bottom: 70px;
+    margin-left: 20px;
+    text-shadow: .2rem .2rem .2rem black;
+}
+
+.contenido{
+    background-color: #000000c0;
+    color: #dcdcdc;
+    margin: auto;
+    width: 960px;
+    padding: 60px;
+    text-shadow: .1rem .1rem .1rem  rgb(31, 31, 31);
+    box-shadow: .1rem .1rem .5rem .1rem #212f4587;
+    
+}
+
+img{
+    box-shadow: .3rem .3rem .3rem  black;
+}
+
+.contenido img{
+    width: 470px;
+    height: 340px;
+    float: left;
+    margin-right: 25px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+.contenido .derecha{
+    width: 480px;
+    height: 340px;
+    float: right;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+.contenido h4{
+    font-size: 40px;
+    font-weight: 300px;
+}
+
+.youtube{
+    margin-top: 70px;
+    margin-left: 15px;
+    letter-spacing: 8px;
+}
+
+.n{
+    box-shadow: .3rem .3rem .3rem  black;
+    border-radius: 20px;
+}
+
+.s{
+    box-shadow: .3rem .3rem .3rem  black;
+    border-radius: 20px;
+}
+
+.new-y{
+    font-size: 22px;
+    width: 400px;
+    margin-left: 40px;
+    margin-top: 15px;
+    position: absolute;
+    text-shadow: .3rem .3rem .3rem  rgb(31, 31, 31);
+    color: #f0e9f0;
+}
+
+.shangai{
+    font-size: 22px;
+    width: 400px;
+    margin-left: 520px;
+    margin-top: 15px;
+    padding-bottom: 25px;
+    text-shadow: .3rem .3rem .3rem  rgb(31, 31, 31);
+    color: #f0e9f0;
+}
+
+.mapas{
+    margin-top: 70px;
+    margin-left: 15px;
+    letter-spacing: 8px;
+    padding-bottom: 25px;
+    box-shadow: .3rem .3rem .3rem  black;
+}
+
+
+.entonces{
+    background-image: url(./imagenes/andre.png);
+    background-color: rgb(54, 54, 54);
+    background-blend-mode: soft-light;
+    background-position: center;
+    background-size: cover;
+}
+
+.final{
+    font-family: cambria, sans-serif;
+    font-size: 20px;
+    padding: 20px;
+    padding-bottom: 80px;
+    letter-spacing: 7px;
+    color: #e6e6faf7;
+    text-shadow: .2rem .2rem .2rem black;
+}
+
+footer {
+    text-align: center;
+    color: #f0e9f0;
+    padding: 5px;
+    background-color: rgb(0, 0, 0);
+    text-shadow: .2rem .2rem .2rem  rgb(31, 31, 31);
+}
+
+footer h4{
+    margin-bottom: 30px;
+}
+
+
+
+
+/************************************************ Responsive design ********************************************/
+
+
+
+
+@media handheld,screen and (min-width: 600px) and (max-width: 1023px) {
+
+    #body-inicio{
+        min-width: 100%;
+        min-height: 100vh;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        background-color: rgba(39, 39, 49, 0.736);
+    }
+
+    .fondo{
+        position: fixed;
+        z-index: 100;
+    }
+
+    .video{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .absolute{
+        width: 100%;
+        height: auto;
+        position: fixed;
+        display: flex;
+        z-index: 100;
+    }
+    
+    
+    .eslogan{
+        width: 100%;
+        height: 105%;
+        position: fixed;
+        display: flex;
+        font-size: 40px;
+        z-index: 100;
+    }
+    
+    .botones{
+        width: 100%;
+        height: 160%;
+        position: fixed;
+        display: flex;
+        z-index: 100;
+    }
+
+    .inicio {
+        font-size: 50px;
+        padding:10px 40px 10px 40px;
+        margin-bottom: 90px;
+    }
+
+    .contacto{
+        margin-left: 20px;
+        font-size: 48px;
+        padding:10px 30px 10px 30px;
+        margin-bottom: 90px;
+    }
+
+    .pie{
+        width: 95%;
+        height: 0;
+        color: #f1f1f15f;
+        z-index: 100;
+        font-size: 15px;
+        bottom: 0;
+    }
+
+    
+}
+
+@media handheld,screen and (min-width: 599px){                
+
+    #body-inicio{
+        min-width: 100%;
+        min-height: 100vh;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        background-color: rgba(39, 39, 49, 0.736);
+    }
+
+    .fondo{
+        position: fixed;
+        z-index: 100;
+    }
+
+    .video{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .absolute{
+        width: 100%;
+        height: auto;
+        position: fixed;
+        display: flex;
+        z-index: 100;
+    }
+
+    .eslogan{
+        width: 100%;
+        height: 105%;
+        position: fixed;
+        display: flex;
+        font-size: 40px;
+        z-index: 100;
+    }
+
+    .botones{
+        width: 100%;
+        height: 160%;
+        position: fixed;
+        display: flex;
+        z-index: 100;
+    }
+
+    .inicio {
+        font-size: 50px;
+        padding:10px 40px 10px 40px;
+        margin-bottom: 100px;
+    }
+    
+    .contacto{
+        margin-left: 20px;
+        font-size: 50px;
+        padding:10px 30px 10px 30px;
+        margin-bottom: 100px;
+    }
+    
+    .pie{
+        width: 95%;
+        height: 0;
+        color: #f1f1f15f;
+        z-index: 100;
+        font-size: 15px;
+        bottom: 0;
+    }
+
+}
+
+
+/* para mayor compatibilidad ya que en celulares como el jprime no se veía*/
+
+@media handheld,screen and (min-width: 509px) and (max-width:598px){  
+
+
+    #body-inicio{
+        min-width: 100%;
+        min-height: 100vh;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        background-color: rgba(39, 39, 49, 0.736);
+    }
+
+    .fondo{
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        background: rgba(0, 0, 0, 0.805);
+        z-index: 100;
+        
+    }
+
+    .video{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    h1{
+        font-size: 55px;
+    }
+
+    .absolute{
+        width: 100%;
+        height: auto;
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 100;
+    }
+
+    .eslogan{
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 35px;
+        color: aliceblue;
+        text-shadow: .3rem .3rem .3rem black;
+        z-index: 100;
+    }
+
+    .botones{
+        width: 100%;
+        height: 160%;
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 100;
+    }
+
+    .inicio {
+        font-size: 35px;
+        padding:5px 30px 5px 30px;
+        margin-bottom: 100px;
+    }
+
+    .contacto{
+        margin-left: 8px;
+        font-size: 35px;
+        padding:5px 30px 5px 30px;
+        margin-bottom: 100px;
+    }
+
+    .pie{
+        width: 95%;
+        height: 0;
+        color: #f1f1f15f;
+        z-index: 100;
+        font-size: 15px;
+        bottom: 0;
+    }
+
+}
+
+
+@media handheld,screen and (min-width: 351px) and (max-width: 508px) {     
+
+
+    #body-inicio{
+        font-family: 'Puritan', sans-serif;
+        box-shadow: .5rem .5rem .5rem .5rem #333;
+        min-width: 100%;
+        min-height: 100vh;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        background-color: rgba(39, 39, 49, 0.736);
+    }
+    
+
+    
+    .fondo{
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        background: rgba(0, 0, 0, 0.805);
+        z-index: 100;
+        
+    }
+    
+    
+    .video{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    h1{
+        font-size: 53px;
+    }
+
+    .absolute{
+        width: 100%;
+        height: auto;
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 100;
+    }
+    
+    
+    .eslogan{
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+        color: aliceblue;
+        text-shadow: .3rem .3rem .3rem black;
+        z-index: 100;
+    }
+
+    .eslogan p{
+        height: auto;
+    }
+    
+    .botones{
+        width: 100%;
+        height: 160%;
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 100;
+    }
+    
+    a{
+        text-decoration: none;
+        color: #f0e9f0;
+        cursor: pointer;
+    }
+    
+    .botones :hover{
+        background-color: #A9A9A9;
+        padding:5px 30px 5px 30px;
+    }
+    
+    .inicio {
+        border: 8px solid #e6e6fa0d ;
+        border-radius: 20px;
+        font-size: 30px;
+        padding:5px 30px 5px 30px;
+        margin-bottom: 100px;
+        text-decoration: none;
+        background-color:#e6e6fa43;
+        text-shadow: .3rem .3rem .3rem black;
+        height: auto;
+    }
+    
+    .contacto{
+        margin-left: 8px;
+        border: 8px solid #e6e6fa0d  ;
+        border-radius: 20px;
+        font-size: 30px;
+        padding:5px 30px 5px 30px;
+        margin-bottom: 100px;
+        text-decoration: none;
+        background-color: #e6e6fa43;
+        text-shadow: .3rem .3rem .3rem black;
+        height: auto;
+    }
+    
+    .pie{
+        width: 95%;
+        height: 0;
+        color: #f1f1f15f;
+        z-index: 100;
+        font-size: 12px;
+        bottom: 0;
+    }
+
+}
+
+
+
+@media handheld,screen and (min-width: 310px) and (max-width: 350px) {      
+
+    #body-inicio{
+        min-width: 100%;
+        min-height: 100vh;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        background-color: rgba(39, 39, 49, 0.736);
+    }
+
+    .fondo{
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        background: rgba(0, 0, 0, 0.805);
+        z-index: 100;
+        
+    }
+    
+    
+    .video{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    h1{
+        font-size: 50px;
+    }
+
+    .absolute{
+        width: 100%;
+        height: auto;
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 100;
+    }
+    
+    
+    .eslogan{
+        width: 100%;
+        height: 105%;
+        position: fixed;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 35px;
+        color: aliceblue;
+        text-shadow: .3rem .3rem .3rem black;
+        z-index: 100;
+    }
+
+    .botones{
+        width: 100%;
+        height: 160%;
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 100;
+    }
+
+    .inicio {
+        font-size: 20px;
+        padding:5px 30px 5px 30px;
+        margin-bottom: 100px;
+    }
+    
+    .contacto{
+        margin-left: 20px;
+        font-size: 20px;
+        padding:5px 30px 5px 30px;
+        margin-bottom: 100px;
+    }
+
+    .pie{
+        width: 95%;
+        height: 0;
+        color: #f1f1f15f;
+        z-index: 100;
+        font-size: 10px;
+        bottom: 0;
+    }
+
+}
+
+
+@media handheld,screen and (min-width: 275px) and (max-width: 309px) {        
+
+    #body-inicio{
+        min-width: 100%;
+        min-height: 100vh;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        background-color: rgba(39, 39, 49, 0.736);
+    }
+
+    .fondo{
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        background: rgba(0, 0, 0, 0.805);
+        z-index: 100;
+        
+    }
+
+    .video{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    h1{
+        font-size: 44px;
+    }
+
+    .absolute{
+        width: 100%;
+        height: auto;
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 100;
+    }
+
+    .eslogan{
+        width: 100%;
+        height: 95%;
+        position: fixed;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 33px;
+        z-index: 100;
+    }
+
+    
+    .botones{
+        width: 100%;
+        height: 160%;
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 100;
+        margin-bottom: 30px;
+    }
+    
+
+    .inicio {
+        font-size: 18px;
+        padding:4px 28px 4px 28px;
+        margin-bottom: 150px;
+        border-radius: 40px;
+    }
+
+
+    .contacto{
+        margin-left: 5px;
+        font-size: 18px;
+        padding:4px 28px 4px 28px;
+        margin-bottom: 150px;
+        border-radius: 40px;
+    }
+
+    .pie{
+        width: 95%;
+        height: 0;
+        color: #f1f1f15f;
+        z-index: 100;
+        font-size: 10px;
+        bottom: 0;
+    }
+    
+}
+
+/* pagina de inicio */
+
+
+
+
+/* Responsive design */    
+
+/* Si cuenta con un celular  procesador quad-core, 1GB de RAM  con una  Velocidad de procesador de  1.5GHz. recomiendo ver la web en "MODO SIMPLE" en google chrome*/
+
+
+@media handheld,screen and (min-width: 600px) and (max-width: 1023px){
+    
+    #multimedia{
+        background-color:  #000000c0;
+    }
+    
+    .especial{
+        background-image: url(./imagenes/intro\ paris.jpg);
+        background-color: rgb(30, 30, 30);
+        background-blend-mode: soft-light;
+        background-position: center;
+    }
+    
+    .bu{
+        position: sticky;
+        top: 0;
+        display: flex;
+        z-index: 1;
+        text-align: center;
+        align-items: center;
+        width: 100%;
+        justify-content: center;
+        background-color: #333;
+        
+        border-radius: 20px;
+    }
+
+    .volver ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        text-align: right;
+        font-family:'Rubik Moonrocks', cursive;
+        font-size: 23px;
+        text-shadow: .1rem .1rem .1rem  black;
+    }
+    
+    .volver ul li{
+        display: inline-block;
+    }
+    
+    .volver ul li a{
+        color: white;
+        text-decoration: none;
+        display: block;
+        padding: 15px;
+    }
+    
+    .volver ul li a:hover{
+        background-color:  #f0e9f0;
+        border: 4px solid rgba(248, 248, 255, 0.255);
+        border-radius: 70px;
+    }
+    
+    .ladyblog{
+        color: #f0e9f0;
+        font-size: 43px;
+        text-shadow: .2rem .2rem .2rem  black;
+        display: inline-block;
+        margin-right: 400px;
+    }
+    
+    .logo{
+        padding: 0;
+        margin-top: 8px;
+        margin-right: 10px;
+        text-align: center;
+        border-radius: 15px;
+    }
+    
+    article{
+        background: #333;
+        background-image: url(imagenes/france\ hd.jpg);
+        background-size: 960px 494px;
+        background-size: cover;
+        background-position: center;
+        backdrop-filter: blur(50px);
+    }
+    
+    h2{
+        color:#f0e9f0;
+        width: 960px;
+        height: 100%;
+        padding-top: 40px;
+        font-size: 55px;
+        text-align: center;
+        text-shadow: .5rem .5rem .5rem  black;
+        font-family:'Rubik Moonrocks', cursive;
+        text-transform: uppercase;
+    }
+    
+    .contenido-h2{
+        color: #e6e6fae6;
+        margin-top: 40px;
+        font-family: 'Prompt', sans-serif;
+        font-size: 25px;
+        padding-top: 30px;
+        padding-bottom: 70px;
+        margin-left: 20px;
+        text-shadow: .2rem .2rem .2rem black;
+    }
+    
+
+    
+    .contenido{
+        background-color: #000000c0;
+        color: #dcdcdc;
+        margin: auto;
+        width: 960px;
+        padding: 60px;
+        text-shadow: .1rem .1rem .1rem  rgb(31, 31, 31);
+        box-shadow: .1rem .1rem .5rem .1rem #212f4587;
+        
+    }
+    
+    img{
+        box-shadow: .3rem .3rem .3rem  black;
+    }
+    
+    .contenido img{
+        width: 470px;
+        height: 340px;
+        float: left;
+        margin-right: 25px;
+        margin-bottom: 20px;
+        margin-top: 15px;
+    }
+    
+    .contenido .derecha{
+        width: 480px;
+        height: 340px;
+        float: right;
+        margin-right: 40px;
+        margin-bottom: 20px;
+        margin-top: 15px;
+    }
+    
+    .contenido h4{
+        font-size: 40px;
+        font-weight: 300px;
+    }
+    
+    .youtube{
+        margin-top: 70px;
+        margin-left: 15px;
+        letter-spacing: 8px;
+    }
+    
+    .n{
+        box-shadow: .3rem .3rem .3rem  black;
+        border-radius: 20px;
+    }
+    
+    .s{
+        box-shadow: .3rem .3rem .3rem  black;
+        border-radius: 20px;
+    }
+    
+    .new-y{
+        font-size: 22px;
+        width: 400px;
+        margin-left: 40px;
+        margin-top: 15px;
+        position: absolute;
+        text-shadow: .3rem .3rem .3rem  rgb(31, 31, 31);
+        color: #f0e9f0;
+    }
+    
+    .shangai{
+        font-size: 22px;
+        width: 400px;
+        margin-left: 520px;
+        margin-top: 15px;
+        padding-bottom: 25px;
+        text-shadow: .3rem .3rem .3rem  rgb(31, 31, 31);
+        color: #f0e9f0;
+    }
+    
+    .mapas{
+        margin-top: 70px;
+        margin-left: 15px;
+        letter-spacing: 8px;
+        padding-bottom: 25px;
+        box-shadow: .3rem .3rem .3rem  black;
+    }
+    
+    
+    .entonces{
+        background-image: url(./imagenes/andre.png);
+        background-color: rgb(54, 54, 54);
+        background-blend-mode: soft-light;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .final{
+        font-family: cambria, sans-serif;
+        font-size: 20px;
+        padding: 20px;
+        padding-bottom: 80px;
+        letter-spacing: 7px;
+        color: #e6e6faf7;
+        text-shadow: .2rem .2rem .2rem black;
+    }
+    
+    footer {
+        text-align: center;
+        color: #f0e9f0;
+        padding: 5px;
+        background-color: rgb(0, 0, 0);
+        text-shadow: .2rem .2rem .2rem  rgb(31, 31, 31);
+    }
+    
+    footer h4{
+        margin-bottom: 30px;
+    }
+}
+
+
+
+
+@media handheld,screen and (min-width: 599px){
+    #multimedia{
+        background-color:  #000000c0;
+    }
+    
+    .especial{
+        background-image: url(./imagenes/intro\ paris.jpg);
+        background-color: rgb(30, 30, 30);
+        background-blend-mode: soft-light;
+        background-position: center;
+    }
+    
+    .bu{
+        position: sticky;
+        top: 0;
+        display: flex;
+        z-index: 1;
+        text-align: center;
+        align-items: center;
+        width: 100%;
+        justify-content: center;
+        background-color: #333;
+        
+        border-radius: 20px;
+    }
+    
+    
+    .volver ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        text-align: right;
+        font-family:'Rubik Moonrocks', cursive;
+        font-size: 23px;
+        text-shadow: .1rem .1rem .1rem  black;
+    }
+    
+    .volver ul li{
+        display: inline-block;
+    }
+    
+    .volver ul li a{
+        color: white;
+        text-decoration: none;
+        display: block;
+        padding: 15px;
+    }
+    
+    .volver ul li a:hover{
+        background-color:  #f0e9f0;
+        border: 4px solid rgba(248, 248, 255, 0.255);
+        border-radius: 70px;
+    }
+    
+    .ladyblog{
+        color: #f0e9f0;
+        font-size: 43px;
+        text-shadow: .2rem .2rem .2rem  black;
+        display: inline-block;
+        margin-right: 400px;
+    }
+    
+    .logo{
+        padding: 0;
+        margin-top: 8px;
+        margin-right: 10px;
+        text-align: center;
+        border-radius: 15px;
+    }
+    
+    article{
+        background: #333;
+        background-image: url(imagenes/france\ hd.jpg);
+        background-size: 960px 494px;
+        background-size: cover;
+        background-position: center;
+        backdrop-filter: blur(50px);
+    }
+    
+    h2{
+        color:#f0e9f0;
+        width: 960px;
+        height: 100%;
+        padding-top: 40px;
+        font-size: 55px;
+        text-align: center;
+        text-shadow: .5rem .5rem .5rem  black;
+        font-family:'Rubik Moonrocks', cursive;
+        text-transform: uppercase;
+    }
+    
+    .contenido-h2{
+        color: #e6e6fae6;
+        margin-top: 40px;
+        font-family: 'Prompt', sans-serif;
+        font-size: 25px;
+        padding-top: 30px;
+        padding-bottom: 70px;
+        margin-left: 20px;
+        text-shadow: .2rem .2rem .2rem black;
+    }
+    
+    
+    
+    .contenido{
+        background-color: #000000c0;
+        color: #dcdcdc;
+        margin: auto;
+        width: 960px;
+        padding: 60px;
+        text-shadow: .1rem .1rem .1rem  rgb(31, 31, 31);
+        box-shadow: .1rem .1rem .5rem .1rem #212f4587;
+        
+    }
+    
+    img{
+        box-shadow: .3rem .3rem .3rem  black;
+    }
+    
+    .contenido img{
+        width: 470px;
+        height: 340px;
+        float: left;
+        margin-right: 25px;
+        margin-bottom: 20px;
+        margin-top: 15px;
+    }
+    
+    .contenido .derecha{
+        width: 480px;
+        height: 340px;
+        float: right;
+        margin-right: 40px;
+        margin-bottom: 20px;
+        margin-top: 15px;
+    }
+    
+    .contenido h4{
+        font-size: 40px;
+        font-weight: 300px;
+    }
+    
+    .youtube{
+        margin-top: 70px;
+        margin-left: 15px;
+        letter-spacing: 8px;
+    }
+    
+    .n{
+        box-shadow: .3rem .3rem .3rem  black;
+        border-radius: 20px;
+    }
+    
+    .s{
+        box-shadow: .3rem .3rem .3rem  black;
+        border-radius: 20px;
+    }
+    
+    .new-y{
+        font-size: 22px;
+        width: 400px;
+        margin-left: 40px;
+        margin-top: 15px;
+        position: absolute;
+        text-shadow: .3rem .3rem .3rem  rgb(31, 31, 31);
+        color: #f0e9f0;
+    }
+    
+    .shangai{
+        font-size: 22px;
+        width: 400px;
+        margin-left: 520px;
+        margin-top: 15px;
+        padding-bottom: 25px;
+        text-shadow: .3rem .3rem .3rem  rgb(31, 31, 31);
+        color: #f0e9f0;
+    }
+    
+    .mapas{
+        margin-top: 70px;
+        margin-left: 15px;
+        letter-spacing: 8px;
+        padding-bottom: 25px;
+        box-shadow: .3rem .3rem .3rem  black;
+    }
+    
+    
+    .entonces{
+        background-image: url(./imagenes/andre.png);
+        background-color: rgb(54, 54, 54);
+        background-blend-mode: soft-light;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .final{
+        font-family: cambria, sans-serif;
+        font-size: 20px;
+        padding: 20px;
+        padding-bottom: 80px;
+        letter-spacing: 7px;
+        color: #e6e6faf7;
+        text-shadow: .2rem .2rem .2rem black;
+    }
+    
+    footer {
+        text-align: center;
+        color: #f0e9f0;
+        padding: 5px;
+        background-color: rgb(0, 0, 0);
+        text-shadow: .2rem .2rem .2rem  rgb(31, 31, 31);
+    }
+    
+    footer h4{
+        margin-bottom: 30px;
+    }
+}
+
+
+
+
+
+
+/* Gracias por ver! */
+
